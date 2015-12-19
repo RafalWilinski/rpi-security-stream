@@ -3,9 +3,10 @@ Python + Flask video streaming service
 
 
 
-1. Get your Rpi local ip by `ifconfig` command
-2. Simply run with `sudo python app.py`. Server will start on :80 port.
-3. In your browser open Rpi IP
+1. Get your Rpi local IP by `ifconfig` command. Save that somewhere, you'll need that later.
+2. On your RPI pull this repo. Run with `sudo python app.py`. Server will start on :80 port.
+3. On your workstation, in your browser open IP that you fetched earlier.
+4. Stream should start after 1-2 seconds.
 
 @todo:
 - motion detection with openCV
