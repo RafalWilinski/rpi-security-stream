@@ -12,5 +12,7 @@ Python + Flask video streaming service
 - motion detection with openCV
 - framerate controller
 - mail module
+- fix get_fps
+- create daemon that will start with RPI boot
 
 Requires camera connected to Rpi + pi_camera module installed.
